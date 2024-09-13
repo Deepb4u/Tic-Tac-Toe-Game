@@ -49,9 +49,7 @@ body{
     color: white;
     font-size: 60px;
 }
-.Mesg{
-    height: 30vmin;
-}
+
 #newGame{
     border: none;
     box-shadow: 0 0 3px black;
