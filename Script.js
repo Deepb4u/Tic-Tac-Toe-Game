@@ -19,7 +19,9 @@ let WiningPattern = [
 const newGame = () =>{
     let turn = 0;
     enabledboxes();
-    Mesgdiv.classList.add("hide");
+    // Mesgdiv.classList.add("hide");
+    newbtn.classList.add("hide");
+    Mesgh1.classList.add("hide");
 }
 
 boxes.forEach((box) => {
@@ -52,7 +54,8 @@ const enabledboxes= () =>{
 
 const showWinner = (winne) => {
     Mesgh1.innerText=`congratulation winner is ${winne}`;
-    Mesgdiv.classList.remove("hide");
+    newbtn.classList.remove("hide");
+    Mesgh1.classList.remove("hide");
     disabledboxes();
 }
 const checkwinner = () =>{
